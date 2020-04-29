@@ -1,0 +1,88 @@
+body {
+    background-color: whitesmoke;
+    font-size: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+h1 {
+    color: #e3bb6b;
+    font-family: 'Archivo Narrow';
+    font-size: 80px;
+    padding-left:16px;
+    }
+    
+h2 {
+    color: #e3bb6b;
+    font-size: 40px;
+    font-family: 'Archivo Narrow';
+    padding-left:16px;
+    }
+
+h3 {
+    color: black;
+    font-family: 'Aleo';
+    font-size: 60px;
+    padding-left:16px;
+    }
+
+.bg-img {
+        background-image: url("10.jpg");
+        min-height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        }
+
+.bg-img-2 {
+        background-image: url("7.jpg");
+        min-height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        }
+
+.bg-img-3 {
+        background-image: url("1.jpg");
+        min-height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        }
+    
+.container {
+        float: right;
+        margin: 0px;
+        width: 100000px;
+        }
+
+.topnav {
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.70);
+    }
+      
+.topnav a {
+    float: right;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 36px;
+    font-family: 'Advent Pro';
+    }
+      
+.topnav a:hover {
+    color: #ebc634;
+    }
+      
+.topnav a.active {
+    color: #ebc634;
+    }
+
+img {
+    width: 100%;
+    height: auto;
+}
