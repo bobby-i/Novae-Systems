@@ -33,16 +33,13 @@ h4 {
     padding-left:16px;
     }
 
-h5 {font-family: 'Montserrat';font-size: 28px;
-    color: #004aad;
-    padding:16px;
-    font-weight: bold;
-    }
-
-h6 {font-family: 'Montserrat';
-    font-size: 24px;
-    padding-left:16px;
-    }
+.email {
+        font-family: 'Montserrat';
+        font-size: 36px;
+        color: #004aad;
+        padding:16px;
+        font-weight: bolder;
+        }
 
 p {
     font-family: 'Montserrat';
