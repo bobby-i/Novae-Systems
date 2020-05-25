@@ -8,13 +8,13 @@ body {
 h1 {
     color: #e3bb6b;
     font-family: 'Archivo Narrow';
-    font-size: 80px;
+    font-size: 90px;
     padding-left:16px;
     }
     
 h2 {
     color: #e3bb6b;
-    font-size: 40px;
+    font-size: 60px;
     font-family: 'Archivo Narrow';
     padding-left:16px;
     }
@@ -24,6 +24,31 @@ h3 {
     font-family: 'Aleo';
     font-size: 60px;
     padding-left:16px;
+    }
+
+h4 {
+    color: black;
+    font-family: 'Aleo';
+    font-size: 36px;
+    padding-left:16px;
+    }
+
+h5 {font-family: 'Montserrat';font-size: 28px;
+    color: #004aad;
+    padding:16px;
+    font-weight: bold;
+    }
+
+h6 {font-family: 'Montserrat';
+    font-size: 24px;
+    padding-left:16px;
+    }
+
+p {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    padding:16px;
+    text-align: justify;
     }
 
 .bg-img {
@@ -51,12 +76,6 @@ h3 {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        }
-    
-.container {
-        float: right;
-        margin: 0px;
-        width: 100000px;
         }
 
 .topnav {
@@ -86,3 +105,82 @@ img {
     width: 100%;
     height: auto;
 }
+
+.navbar {
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.70);
+    }
+
+.navbar a {
+    float: right;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 36px;
+    font-family: 'Advent Pro';
+    }
+
+.navbar a:hover {
+    color: #ebc634;
+    }
+      
+.navbar a.active {
+    color: #ebc634;
+    }
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    background-color: none;
+    }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: none;
+    }
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    margin: 0;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 36px;
+    font-family: 'Advent Pro';
+    background: none;
+    }
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    color: #ebc634;
+    background-color: none;
+    }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.70);
+    }
+
+.dropdown-content a {
+    float: none;
+    color: whitesmoke;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    }
+
+.dropdown-content a:hover {
+    background:none;
+    }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: none;
+    }
