@@ -1,5 +1,5 @@
 body {
-    background-color: whitesmoke;
+    background-color: white;
     font-size: 20px;
     margin: 0;
     box-sizing: border-box;
@@ -24,78 +24,71 @@ h3 {
     font-family: 'Aleo';
     font-size: 60px;
     padding-left:16px;
+    margin-bottom: 20px;
     }
 
 h4 {
     color: black;
-    font-family: 'Aleo';
+    font-family: 'Archive';
     font-size: 36px;
     padding-left:16px;
+    margin-bottom: 20px;
+    margin-top: 30px;
     }
-
-.email {
-        font-family: 'Montserrat';
-        font-size: 36px;
-        color: #004aad;
-        padding:16px;
-        font-weight: bolder;
-        }
 
 p {
     font-family: 'Montserrat';
     font-size: 24px;
-    padding:16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 0px;
+    margin-bottom: 10px;
     text-align: justify;
     }
 
+li {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: justify;
+    }
+
+.email {
+    font-family: 'Montserrat';
+    font-size: 36px;
+    color: #004aad;
+    padding:16px;
+    font-weight: bolder;
+    }
+
 .bg-img {
-        background-image: url("10.jpg");
-        min-height: 500px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        }
+    background-image: url("10.jpg");
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
 
 .bg-img-2 {
-        background-image: url("7.jpg");
-        min-height: 500px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        }
+    background-image: url("7.jpg");
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
 
 .bg-img-3 {
-        background-image: url("1.jpg");
-        min-height: 500px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        }
-
-.topnav {
-    overflow: hidden;
-    background: rgba(0, 0, 0, 0.70);
-    }
-      
-.topnav a {
-    float: right;
-    color: whitesmoke;
-    text-align: center;
-    text-decoration: none;
-    padding: 14px 16px;
-    font-size: 36px;
-    font-family: 'Advent Pro';
-    }
-      
-.topnav a:hover {
-    color: #ebc634;
-    }
-      
-.topnav a.active {
-    color: #ebc634;
+    background-image: url("1.jpg");
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     }
 
 img {
@@ -181,3 +174,73 @@ img {
     display: block;
     background-color: none;
     }
+
+#hardware {
+    height: 500px;
+    width: 750px;
+    margin: 10px;
+    margin-top: 50px;
+    margin-left: 0px;
+    }
+
+#mac {
+    height: 500px;
+    width: 724px;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.box {
+    background-color: #cae3f6;
+    height: 200px;
+    line-height: 200px;
+    width: 250px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+
+.boxx {
+    background-color: #cae3f6;
+    height: 200px;
+    line-height: 200px;
+    width: 250px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+
+form input{
+    background-color: #fdfcf5;
+    border-color: black;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    margin-left: 20px;
+    height: 50px;
+}
+
+#name {
+    width: 300px;
+}
+
+#email {
+    width: 500px;
+}
+
+#comment {
+    width: 833px;
+}
+
+#send {
+    background-color: #004aad;
+    font-weight: bolder;
+    border: none;
+    color: #fdfcf5;
+    width: 100px;
+}
